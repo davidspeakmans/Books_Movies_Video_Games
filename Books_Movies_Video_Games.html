@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Popular Media Grid</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: black;
+            color: white;
+        }
+        .grid-container {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 10px;
+        }
+        .grid-item {
+            border: 1px solid white;
+            padding: 10px;
+            text-align: left;
+        }
+        .header {
+            background-color: #444;
+            font-weight: bold;
+            text-align: center;
+        }
+        .group-1 { background-color: #4CAF50; }
+        .group-2 { background-color: #2196F3; }
+        .group-3 { background-color: #FFC107; }
+        .group-4 { background-color: #FF5722; }
+        .group-5 { background-color: #9C27B0; }
+        .group-6 { background-color: #FF9800; }
+        .group-7 { background-color: #673AB7; }
+        .group-8 { background-color: #795548; }
+        .group-9 { background-color: #607D8B; }
+        .group-10 { background-color: #E91E63; }
+        .group-11 { background-color: #3F51B5; }
+        .group-12 { background-color: #009688; }
+    </style>
+</head>
+<body>
+
+<div class="grid-container">
+    <div class="grid-item header">Book</div>
+    <div class="grid-item header">Movie</div>
+    <div class="grid-item header">Video Game</div>
+
+    <div class="grid-item group-1">Title: Dune<br>Author: Frank Herbert<br>Copyright: 1965</div>
+    <div class="grid-item group-1">Title: Dune<br>Director: Denis Villeneuve<br>Release Date: 2021</div>
+    <div class="grid-item group-1">Title: Dune<br>Publisher: Cryo Interactive<br>Copyright: 2001</div>
+
+    <div class="grid-item group-2">Title: Hitchhiker's Guide to the Galaxy<br>Author: Douglas Adams<br>Copyright: 1979</div>
+    <div class="grid-item group-2">Title: Hitchhiker's Guide to the Galaxy<br>Director: Garth Jennings<br>Release Date: 2005</div>
+    <div class="grid-item group-2">Title: The Hitchhiker's Guide to the Galaxy<br>Publisher: Infocom<br>Copyright: 1984</div>
+
+    <div class="grid-item group-3">Title: Neuromancer<br>Author: William Gibson<br>Copyright: 1984</div>
+    <div class="grid-item group-3">Title: Johnny Mnemonic<br>Director: Robert Longo<br>Release Date: 1995</div>
+    <div class="grid-item group-3">Title: Neuromancer<br>Publisher: Interplay<br>Copyright: 1988</div>
+
+    <div class="grid-item group-4">Title: A Game of Thrones<br>Author: G.R.R. Martin<br>Copyright: 1996</div>
+    <div class="grid-item group-4">Title: Game of Thrones<br>Director: David Benioff, D.B. Weiss<br>Release Date: 2011</div>
+    <div class="grid-item group-4">Title: Game of Thrones<br>Publisher: Telltale Games<br>Copyright: 2014</div>
+
+    <div class="grid-item group-5">Title: Wheel of Time<br>Author: Robert Jordan<br>Copyright: 1990</div>
+    <div class="grid-item group-5">Title: The Wheel of Time<br>Director: Rafe Judkins<br>Release Date: 2021</div>
+    <div class="grid-item group-5">Title: The Wheel of Time<br>Publisher: Legend Entertainment<br>Copyright: 1999</div>
+
+    <div class="grid-item group-6">Title: Starship Troopers<br>Author: Robert A. Heinlein<br>Copyright: 1959</div>
+    <div class="grid-item group-6">Title: Starship Troopers<br>Director: Paul Verhoeven<br>Release Date: 1997</div>
+    <div class="grid-item group-6">Title: Starship Troopers<br>Publisher: MicroProse<br>Copyright: 2000</div>
+
+    <div class="grid-item group-7">Title: The Iliad<br>Author: Homer<br>Copyright: 8th Century BC</div>
+    <div class="grid-item group-7">Title: Troy<br>Director: Wolfgang Petersen<br>Release Date: 2004</div>
+    <div class="grid-item group-7">Title: Total War Saga: Troy<br>Publisher: Creative Assembly<br>Copyright: 2020</div>
+
+    <div class="grid-item group-8">Title: The Witcher<br>Author: Andrzej Sapkowski<br>Copyright: 1993</div>
+    <div class="grid-item group-8">Title: The Witcher<br>Director: Alik Sakharov (Season 1)<br>Release Date: 2019</div>
+    <div class="grid-item group-8">Title: The Witcher<br>Publisher: CD Projekt Red<br>Copyright: 2007</div>
+
+    <div class="grid-item group-9">Title: Jurassic Park<br>Author: Michael Crichton<br>Copyright: 1990</div>
+    <div class="grid-item group-9">Title: Jurassic Park<br>Director: Steven Spielberg<br>Release Date: 1993</div>
+    <div class="grid-item group-9">Title: Jurassic Park<br>Publisher: Ocean Software<br>Copyright: 1993</div>
+
+    <div class="grid-item group-10">Title: The Hunger Games<br>Author: Suzanne Collins<br>Copyright: 2008</div>
+    <div class="grid-item group-10">Title: The Hunger Games<br>Director: Gary Ross<br>Release Date: 2012</div>
+    <div class="grid-item group-10">Title: The Hunger Games<br>Publisher: Funtactix<br>Copyright: 2012</div>
+
+    <div class="grid-item group-11">Title: Harry Potter and the Sorcerer's Stone<br>Author: J.K. Rowling<br>Copyright: 1997</div>
+    <div class="grid-item group-11">Title: Harry Potter and the Sorcerer's Stone<br>Director: Chris Columbus<br>Release Date: 2001</div>
+    <div class="grid-item group-11">Title: Harry Potter and the Sorcerer's Stone<br>Publisher: Electronic Arts<br>Copyright: 2001</div>
+
+    <div class="grid-item group-12">Title: The Fellowship of the Ring<br>Author: J.R.R. Tolkien<br>Copyright: 1954</div>
+    <div class="grid-item group-12">Title: The Fellowship of the Ring<br>Director: Peter Jackson<br>Release Date: 2001</div>
+    <div class="grid-item group-12">Title: The Lord of the Rings: The Fellowship of the Ring<br>Publisher: Electronic Arts<br>Copyright: 2002</div>
+</div>
+
+</body>
+</html>
